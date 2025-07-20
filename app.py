@@ -44,7 +44,7 @@ def google_fact_check(query, api_key):
     response = requests.get(url, params=params)
     return response.json()
 
-API_KEY = "AIzaSyAaBqHBNLz60JENBCjKXF8zQ3xyIe-W-7o"
+API_KEY = "yor api key"
 
 st.title("Rumour Detection & Fact Check")
 
